@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+}
+.bg-cont{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.cat-img{
+    width:130px;
+    margin:10px;
+}
+.bulb-img{
+    width:130px;
+    margin:10px;
+}
+.box{
+    background-color:rgb(130, 126, 126);
+    width:300px;
+    height:180px;
+    border-radius:25px;
+    margin:10px;
+}
+.heading{
+    margin:10px;
+    text-align: center;
+}
+.switch-on{
+    height:30px;
+    width:80px;
+    margin:10px;
+    margin-left:40px;
+    border-radius: 20px;
+    border: 0px;
+    background-color:green;
+
+    
+}
+.switch-off{
+    height:30px;
+    width:80px;
+    margin:10px;
+    margin-left:40px;
+    border-radius: 20px;
+    border: 0px;
+    
+}

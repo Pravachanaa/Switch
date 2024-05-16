@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Project1.css">
+        <script>
+            function switchOn(){
+                document.getElementById("bulbimg").src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png";
+                document.getElementById("catimg").src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png";
+                document.getElementById("status").textContent="SWITCH ON";
+                document.getElementById("onswitch").style.backgroundColor="green";  
+                document.getElementById("offswitch").style.backgroundColor="white";   
+            }
+            function switchOff(){
+                document.getElementById("bulbimg").src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png";
+                document.getElementById("catimg").src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png";
+                document.getElementById("status").textContent="SWITCH OFF";
+                document.getElementById("offswitch").style.backgroundColor="red"; 
+                document.getElementById("onswitch").style.backgroundColor="white";      
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="bg-cont">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" class="bulb-img" id="bulbimg"/> 
+            </div>
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" class="cat-img" id="catimg"/>
+            </div>
+            <div class="box">
+                <h1 class="heading" id="status">SWITCH ON</h1>
+                <button class="switch-on" onclick=switchOn() id="onswitch">ONN</button>
+                <button class="switch-off"  onclick=switchOff() id="offswitch">OFF</button>
+            </div>
+        </div>
+    </body>
+</html>
